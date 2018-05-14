@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">عکس مخفی</string>
+    <string name="action_settings">Settings</string>
+    <string name="ab_us">درباره ما</string>
+    <string name="homepage">صفحه اصلی</string>
+    <string name="encode">رمز کردن</string>
+    <string name="decode">باز کردن</string>
+    <string name="how">چگونه از نرم افزار استفاده کنیم؟</string>
+    <string name="gallerys">گالری تصاویر</string>
+    <string name="im">تصویر</string>
+    <string name="software">نرم افزار عکس مخفی</string>
+
+</resources>

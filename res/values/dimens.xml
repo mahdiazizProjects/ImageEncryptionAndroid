@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="normfourbutl">60dp</dimen>
+    <dimen name="clickwidth">170dp</dimen>
+    <dimen name="clickheight">200dp</dimen>
+    <dimen name="mixh">63dp</dimen>
+    <dimen name="mixw">200dp</dimen>
+    <dimen name="clickhl">120dp</dimen>
+    <dimen name="fourbutw">200dp</dimen>
+    <dimen name="fourbuth">60dp</dimen>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/clickwidth"
+        android:layout_height="@dimen/clickhl"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/click" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" 
+    android:layout_margin="10dp">
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="رمز" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="8"
+        android:inputType="textPassword"
+        android:layout_marginLeft="5dp" >
+
+        <requestFocus />
+    </EditText>
+    
+</LinearLayout>
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="حالت"
+        android:textOff="@string/encode"
+        android:textOn="@string/decode" />
+
+    <ImageView
+        android:id="@+id/mixitimv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/mixit"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>

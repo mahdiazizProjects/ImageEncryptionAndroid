@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="شرکت توسعه دهنده نرم افزاری رابین با هدف تمرکز بر تقویت ارتباط دانشگاه و صنعت در حوزه فناوری اطلاعات پا به عرصه فعالیت گذاشته است. این شرکت فعالیت خود را از سال 1392 در عرصه های مختلف نرم افزاری شامل طراحی و توسعه نرم افزارهای کاربردی کامپیوتر، طراحی و توسعه نرم افزارهای اندرویدی و طراحی سایت های مبتنی بر PHP و ASP شروع کرده است. شرکت رابین هدف خود را رضایت مشتری می داند لذا برآن است که در تمامی عرصه ها جواب گوی مشتریان عزیز باشد. این شرکت نوآوری و خلاقیت و کاربردی نمودن علم را سرلوحه خود قرار داده و تصمیم دارد تا رابطه ضعیف علم صنعت در کشور عزیزمان ایران را احیا کند."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/fa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/gm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/gp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gplus" />
+
+        <ImageView
+            android:id="@+id/tw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter" />
+    </LinearLayout>
+
+</RelativeLayout>
